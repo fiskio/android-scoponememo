@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout
+xmlns:android="http://schemas.android.com/apk/res/android"
+android:layout_width="fill_parent"
+android:layout_height="fill_parent"
+>
+
+    <LinearLayout
+    android:layout_width="fill_parent"
+    android:layout_alignParentTop="true" 
+    android:orientation="horizontal"
+    android:gravity="center"
+    android:layout_height="25dip"
+    >
+
+    <TextView
+        android:id="@+id/toprisp"
+        android:layout_width="fill_parent"
+        android:layout_height="40dip"
+        android:textColor="#FFFFFF"
+        android:gravity="center" 
+        android:layout_weight="1"
+        android:textSize="20sp" 
+       
+        />
+</LinearLayout>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:layout_gravity="fill_horizontal"
+    android:gravity="top"
+    android:orientation="horizontal" >
+
+    <LinearLayout
+        android:layout_width="0dip"
+        android:layout_height="fill_parent"
+        android:layout_weight="1"
+        android:gravity="center_vertical"
+        android:paddingBottom="45dip"
+        android:paddingTop="22dip"
+        android:orientation="vertical" >
+
+        <ImageButton
+            android:id="@+id/uno"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical|center_horizontal"
+            android:src="@drawable/ic_launcher"
+            android:layout_marginBottom="20dip"
+            
+            
+            />
+        
+        <ImageButton
+            android:id="@+id/sei"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical|center_horizontal"
+			android:layout_marginTop="20dip"
+            android:src="@drawable/ic_launcher" 
+            
+            
+            />
+    </LinearLayout>
+     
+	<LinearLayout
+        android:orientation="vertical"
+        android:layout_width="0dip"
+        android:layout_height="fill_parent"
+        android:layout_weight="1"
+        android:gravity="center_vertical"
+        android:paddingBottom="45dip"
+        android:paddingTop="22dip"
+        >
+    <ImageButton
+        android:id="@+id/due"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical|center_horizontal"
+        android:src="@drawable/ic_launcher" 
+        android:layout_marginBottom="20dip"
+        
+        
+        />
+        
+        <ImageButton
+        android:id="@+id/sette"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical|center_horizontal"
+        android:src="@drawable/ic_launcher" 
+        android:layout_marginTop="20dip"
+        
+            
+        />
+	 
+	</LinearLayout>  
+    
+	<LinearLayout
+	    android:layout_width="0dip"
+	    android:layout_height="fill_parent"
+	    android:layout_weight="1"
+	    android:gravity="center"
+	    android:paddingBottom="45dip"
+	    android:paddingTop="22dip"
+	    android:orientation="vertical" >
+
+    <ImageButton
+        android:id="@+id/tre"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical|center_horizontal"
+        android:src="@drawable/ic_launcher" 
+        android:layout_marginBottom="20dip"
+        
+        
+        />
+            
+ 	
+         <ImageButton
+        android:id="@+id/otto"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical|center_horizontal"
+        android:src="@drawable/ic_launcher"
+        android:layout_marginTop="20dip"
+        
+        
+         />
+     
+	</LinearLayout>    
+    
+	<LinearLayout
+	    android:id="@+id/ll4"
+	    android:layout_width="0dip"
+	    android:layout_height="fill_parent"
+	    android:layout_weight="1"
+	    android:gravity="center"
+	    android:paddingBottom="45dip"
+	    android:paddingTop="22dip"
+	    android:orientation="vertical" >
+
+    <ImageButton
+        android:id="@+id/quattro"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical|center_horizontal"
+        android:src="@drawable/ic_launcher"
+        android:layout_marginBottom="20dip"
+        
+        
+      	/>
+         <ImageButton
+        android:id="@+id/nove"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical|center_horizontal"
+        android:src="@drawable/ic_launcher" 
+        android:layout_marginTop="20dip"
+        
+        
+        />
+     
+     </LinearLayout>
+     
+	<LinearLayout
+	    android:id="@+id/ll5"
+	    android:layout_width="0dip"
+	    android:layout_height="fill_parent"
+	    android:layout_weight="1"
+	    android:gravity="center"
+	    android:paddingBottom="45dip"
+	    android:paddingTop="22dip"
+	    android:orientation="vertical" >
+
+    <ImageButton
+        android:id="@+id/cinque"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical|center_horizontal"
+        android:src="@drawable/ic_launcher" 
+        android:layout_marginBottom="20dip"
+        
+        
+        />
+        
+        <ImageButton
+        android:id="@+id/dieci"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical|center_horizontal"
+        android:src="@drawable/ic_launcher" 
+        android:layout_marginTop="20dip"
+        
+        
+        />
+     
+	</LinearLayout>    
+</LinearLayout>
+
+<LinearLayout
+    android:id="@+id/buttonBar"
+    style="@android:style/ButtonBar"
+    android:layout_width="fill_parent"
+    android:layout_height="45dip"
+    android:layout_alignParentBottom="true"
+    android:gravity="center" >
+
+    <TextView
+        android:id="@+id/bottonebasso"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Controlla"
+        android:textColor="#FFFFFF"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+</LinearLayout>
+
+</RelativeLayout>

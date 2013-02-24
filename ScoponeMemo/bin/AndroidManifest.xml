@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.luckybrews.scoponememo"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+   <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="17" />
+
+    <application
+        android:icon="@drawable/denari"
+        android:label="@string/app_name" >
+        <activity
+            android:label="@string/app_name" android:name="com.luckybrews.scoponememo.ScoponeMemoActivity">
+     		
+        </activity>
+        <activity
+            android:label="@string/app_name" android:name="com.luckybrews.scoponememo.RispostaCoppiaActivity" > 
+            
+        </activity>
+         <activity
+            android:label="@string/app_name" android:name="com.luckybrews.scoponememo.RispostaFiniteActivity" > 
+            
+        </activity>
+ 
+        
+        <activity
+            android:label="@string/app_name" android:name="com.luckybrews.scoponememo.RispostaSparigliActivity"> 
+            
+        </activity>
+        
+         <activity
+            android:label="@string/app_name" android:name="com.luckybrews.scoponememo.LivelliActivity"> 
+            
+        </activity>
+        
+        <activity
+            android:label="@string/app_name" android:name="com.luckybrews.scoponememo.TeoriaActivity"> 
+            
+        </activity>
+        
+        <activity
+            android:label="@string/app_name" android:name="com.luckybrews.scoponememo.MainActivity"> 
+            <intent-filter >
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>     
+    </application>
+
+</manifest>

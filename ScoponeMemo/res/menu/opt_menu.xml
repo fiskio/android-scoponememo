@@ -1,0 +1,6 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    
+    <item android:title="Cambia Mazzo"  android:id="@+id/menu_mazzo"></item>
+	<item android:title="enablePairs"  android:id="@+id/menu_coppie"></item>
+    
+</menu>
